@@ -1,0 +1,37 @@
+body
+{
+	 background: linear-gradient(#003366, #3399CC);
+	 color: white;
+}
+
+table
+{
+	margin-top: 2%;
+	margin-left: 20%;
+	border:1px solid black;
+}
+
+tr
+{
+border:1px #333;
+}
+ 
+td
+{
+	border:1px solid #333;
+}
+
+.t
+{
+	border:5px solid black;
+}
+
+.TOF
+{
+	margin-top: 2%;
+	margin-left: 2%;
+	float: left;
+width: 200px; height: 200px;
+border-radius: 10px 20px;
+box-shadow: 5px 2px 2px pink.
+}
