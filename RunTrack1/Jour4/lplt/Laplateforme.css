@@ -1,0 +1,380 @@
+html
+{
+	margin: 0;
+
+}
+
+.jd
+{	
+	width: 100%;
+	background-color: #88c1d0;
+	margin: 0;
+	position: relative;
+	padding-left: -5px;
+  font-family: Roboto,SpaceMono;
+  text-align: center;
+  color: #ffca4b;
+  margin-left: 0;
+    margin-right: 0;
+  text-shadow: 2px 2px black;
+}
+
+.bar
+{
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  left:0;
+  height: 100%;
+  overflow: auto;
+
+
+}
+
+.bar a
+{
+
+  display: block;
+  color: #275fa0;
+  padding: 50px;
+  text-decoration: none;
+  margin-left:0;
+  padding-left: 0;
+}
+
+.bar a.active {
+  background-color: #4CAF50;
+  color: white;
+  margin-left:0;
+  padding-left: 0;
+}
+
+.bar a:hover:not(.active) {
+  background-color:#88c1d0;
+  color: #ffca4b;
+  
+  margin-left:0;
+  padding-left: 0;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .bar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+footer
+{
+
+	width: 100%;
+	min-height: 5%;
+	background-color: #275fa0;
+	left:200px;
+	position: absolute; 
+	bottom: -20%; 
+	color:white;
+	padding:10px;
+	
+	
+}
+
+.ab
+{	
+	justify-content: justify;
+	color:white;
+	margin-top: 5px;
+	display: block;
+	flex-direction: column;
+	width: 50%;
+	
+	padding-left: 12%;
+	height: 700px;
+}
+
+.LOGNAV
+{
+
+	max-width: 100%;
+
+
+}
+
+.jd2
+{
+	  list-style-type: none;
+	  margin-left: -10%;
+	  text-align: justify;
+
+}
+
+.jd3
+{
+
+  margin-left:-12%;
+  padding-left: -12%;
+
+}
+
+.jd1
+{	
+	display: flex;
+	width: 100%;
+}
+
+.grp
+{
+
+display: block;
+transform: rotate(90deg); 
+width: 50%;
+
+}
+
+
+
+
+/*code css amelie */
+
+.marge-ac{
+	padding-left:250px;
+}
+
+.images_en_ligne img{
+  position:relative;
+  margin-top:70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:15px;
+  width: 30%;
+}
+
+.ac-bouton{
+	display: block;
+   margin : auto;
+   margin-top:30px;
+   width:250px;
+   height:60px;
+   font-size:20px;
+   box-shadow: 0;
+   background-color: #ffca4b;
+   border-radius:7px;
+
+}
+
+.ac-text p{
+	margin:15px;
+	margin-top:0;
+	position:absolute;
+	left:850px;
+	overflow: scroll;
+	height:350px;
+}
+
+.ac-video {
+	position:absolute;
+	margin:30px;
+	
+}
+
+.img-footer {
+	width:5%;
+}
+
+.Scolonne {
+  position:relative;
+  top:500px; 
+  left:250px;
+  width:500px;
+  color:#88c1d0;
+  font-family: Roboto;
+  background-color: white;
+  -webkit-columns:1 400px;
+  text-align:center;
+  border:3px solid #ffca4b;
+  margin-left: 0;
+    margin-right: 0;
+
+}
+
+.Sh1 {
+  font-family: Roboto;
+  text-align: center;
+  color: #ffca4b;
+  margin-left: 0;
+    margin-right: 0;
+  text-shadow: 2px 2px black;
+ 
+  
+}
+
+.Sa { 
+  color:#ffca4b
+
+}
+
+.Svideo {
+  position:Absolute;
+  top:60px;
+  left:250px;
+  margin: 0;
+  min-width:960px;
+ 
+}
+
+.SCyril {
+  position:absolute;
+  top:350px;
+  Left:250px;
+  margin-left: 0;
+    margin-right: 0;
+
+ 
+  
+}
+
+.SDenis {
+  position:absolute;
+  width:200px;
+  top:350px;
+  Left:700px;
+  margin-left: 0;
+    margin-right: 0;
+ 
+}
+
+.SThierry {
+  position:absolute;
+  width:200px;
+  top:350px;
+  Left:1000px;
+  text-align:left;  
+  margin-left: 0;
+    margin-right: 0;
+ 
+  
+}
+
+.Simage {
+  position: absolute;
+    width:  600px;
+    height: 100px;
+  top:450px;
+  Left:900px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  margin-left: auto;
+    margin-right: auto;
+}
+ 
+.sfooter  {
+  width: 100%;
+  min-height: 5%;
+  background-color: #275fa0;
+  position: absolute; bottom: -400%;
+ }
+
+.ac2
+{
+  bottom: -320px;
+
+}
+
+h1
+{
+  font-family: Roboto;
+  text-align: center;
+  color: #ffca4b;
+  margin-left: 0;
+    margin-right: 0;
+  text-shadow: 2px 2px black;
+
+}
+.marge-b{
+  padding-left:250px;
+}
+
+.slc
+{
+  width:51%;
+}
+
+.grp2
+{
+  margin-left: 5%;
+  width: 75%;
+}
+
+.Mtitre{
+  text-align:center;
+  margin:auto;
+  padding-left:15%;
+  padding-top:5%;
+}
+.Msoustitre{
+  text-align:center;
+  margin:auto;
+  padding-left:15%;
+}
+
+.Mdescription{
+  float:right;
+  width:39.5%;
+  text-align:justify;
+  margin-right:2%;
+  margin-top:3%
+}
+.Mblocvid{
+  padding-left:300px;
+  margin-top:10%;
+}
+
+#Mtaille{
+  width:39.5%;
+  height:300PX;;
+}
+
+.Mlogo{
+  width:39.5%;
+  height:100px;
+  padding-left:200px;
+}
+
+.Mbouton{
+  width:39.5%;
+  height:100px;
+  padding-left:50%;
+  margin-top:10%;
+}
+
+#Mstyle{
+  border-radius:20px;
+  font-size:16pt!important;
+  background-color:silver;
+}
+
+.vid
+{
+  float: left;
+}
